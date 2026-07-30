@@ -1,0 +1,25 @@
+Balance=20000
+
+print("1.Check Balance")
+print("2.Deposit")
+print("3.Withdraw")
+
+choice=int(input("Enter your choice: "))
+
+if choice==1:
+    print("Your balance is:", Balance)
+
+elif choice==2:
+     
+     amount=int(input("Enter amount to deposit: "))
+     amount+=Balance
+     print("Your new balance is:", amount)
+
+elif choice==3:
+     withdraw=int(input("Enter amount to withdraw: "))
+     withdraw=Balance-withdraw
+     print("Your new balance is:", withdraw)
+else:
+    print("Invalid choice")     
+
+    

@@ -1,0 +1,28 @@
+name=input ("Enter your name: ")
+
+H=int(input("Enter your marks Hindi: "))
+E=int(input("Enter your marks English: "))
+M=int(input("Enter your marks Maths: "))
+P=int(input("Enter your marks Physics: "))
+C=int(input("Enter your marks Chemistry: "))
+
+total=H+E+M+P+C
+
+percentage=total/5*100
+print("Your total marks is:", total)
+
+if percentage >=60: 
+    print("Your grade is First Class")
+          
+    print("Your Grade is A+")
+
+elif percentage >=40:
+    print("your grade is second class")
+    print("Your Grade is B")
+
+elif percentage >=33:
+    print("your grade is third class")
+    print("Your Grade is C") 
+else:
+    print("Your grade is fail")
+    print("Your Grade is D")       

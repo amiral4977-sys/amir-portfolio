@@ -1,0 +1,14 @@
+Salary=int(input("Enter your Salary:"))
+
+if Salary>10000:
+    bonus=Salary*10/100
+    Salary+=bonus
+    print("Your bonus +salary is:",Salary)
+
+elif Salary<=5000:
+    bonus=Salary*5/100
+    Salary+=bonus
+    print("Your bonus +salary is:",Salary)
+
+else:
+    print("Your salary is:",Salary)    

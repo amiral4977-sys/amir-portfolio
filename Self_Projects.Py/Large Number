@@ -1,0 +1,9 @@
+num1=int(input("Enter your first number: "))
+num2=int(input("Enter your second number: "))
+
+if num1 > num2:
+    print(num1,"Your first number is greater than second number")
+elif num2 > num1 :
+    print(num2,"Your second number is greater than first number")
+else:
+    print("Both numbers are equal")     
